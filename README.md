@@ -1,1 +1,124 @@
 # nethinti-aditya-website
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nethinti Aditya's Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+        }
+        .bio {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .gallery img {
+            width: 100px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nethinti Aditya</h1>
+        <p>A Real Gentleman | Process Consultant | Anime Enthusiast</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#interests">Interests</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="bio">
+            <h2>About Me</h2>
+            <p>Hello! I'm Nethinti Aditya, born on 02/06/1997. I'm currently working as a process consultant for Australia PR visa. I have previous experience in customer service, both in domestic calling and international chatting, as well as in the USA student visa process.</p>
+            <p>In my free time, I enjoy playing football, volleyball, and cricket. I also love reading books, singing, writing stories, and content writing. As a huge anime fan, I spend a lot of my time watching anime. Dancing is another passion of mine, and I consider myself a real gentleman.</p>
+        </section>
+        <section id="interests" class="bio">
+            <h2>Interests</h2>
+            <ul>
+                <li>Playing Football, Volleyball, and Cricket</li>
+                <li>Reading Books</li>
+                <li>Singing</li>
+                <li>Story Writing and Content Writing</li>
+                <li>Watching Anime</li>
+                <li>Dancing</li>
+            </ul>
+        </section>
+        <section id="gallery" class="bio">
+            <h2>Anime Gallery</h2>
+            <div class="gallery">
+                <img src="https://example.com/naruto.jpg" alt="Naruto">
+                <img src="https://example.com/naruto_shippuden.jpg" alt="Naruto Shippuden">
+                <img src="https://example.com/demon_slayer.jpg" alt="Demon Slayer">
+                <img src="https://example.com/death_note.jpg" alt="Death Note">
+                <img src="https://example.com/one_piece.jpg" alt="One Piece">
+                <img src="https://example.com/dragon_ball_z.jpg" alt="Dragon Ball Z">
+                <img src="https://example.com/jujutsu_kaisen.jpg" alt="Jujutsu Kaisen">
+                <img src="https://example.com/one_punch_man.jpg" alt="One Punch Man">
+                <img src="https://example.com/hunter_x_hunter.jpg" alt="Hunter x Hunter">
+                <img src="https://example.com/seven_deadly_sins.jpg" alt="Seven Deadly Sins">
+                <img src="https://example.com/pokemon.jpg" alt="Pokemon">
+                <img src="https://example.com/inazuma_eleven.jpg" alt="Inazuma Eleven">
+            </div>
+        </section>
+        <section id="contact" class="bio">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out to me on WhatsApp at <strong>8008312103</strong> or on Instagram at <strong>@mister_unique.knight</strong>.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Nethinti Aditya</p>
+    </footer>
+</body>
+</html>
